@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>You're invited to our group</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="wrap">
+
+    <!-- Intro card -->
+    <section class="card hero">
+
+      <h1 id="hello">You're invited to our group</h1>
+
+      <p>
+        We're putting together our group for the Introduction to Management
+        presentation, and we'd love to have you with us.
+      </p>
+
+      <p>
+        This link is personal to you, so please don't forward it.
+      </p>
+
+      <ul class="fns" aria-label="The four functions of management">
+        <li>Planning</li>
+        <li>Organizing</li>
+        <li>Leading</li>
+        <li>Controlling</li>
+      </ul>
+
+      <p class="calm">
+        No pressure at all. If you've already joined another group, or you'd
+        just prefer not to, tap "Can't this time". That's completely fine, and
+        nobody else will see your answer.
+      </p>
+
+    </section>
+
+
+    <!-- Answer form card -->
+    <section class="card" id="formCard">
+
+      <h2>Will you join us?</h2>
+
+      <div class="pair">
+        <button type="button" class="choice" id="yesBtn" aria-pressed="false">
+          Yes, I'm in
+        </button>
+
+        <button type="button" class="choice" id="noBtn" aria-pressed="false">
+          Can't this time
+        </button>
+      </div>
+
+      <div id="roleBlock" class="hidden">
+
+        <h2 style="margin-top: 24px">
+          Which part of the presentation would you like to cover?
+        </h2>
+
+        <div class="roles" id="roles"></div>
+
+      </div>
+
+      <label class="field">
+        <span>
+          A note for us
+          <small>(optional, only we can read it)</small>
+        </span>
+
+        <textarea
+          id="note"
+          placeholder="For example, you'd like to recommend someone else, or you have a timing issue."></textarea>
+      </label>
+
+      <button type="button" class="send" id="sendBtn">
+        Send my answer
+      </button>
+
+      <div class="msg" id="msg" role="alert"></div>
+
+    </section>
+
+
+    <!-- Thank-you card (shown after sending) -->
+    <section class="card thanks hidden" id="thanksCard">
+      <h2 id="thanksTitle"></h2>
+      <p id="thanksText"></p>
+    </section>
+
+
+    <!-- Who has confirmed -->
+    <section class="card in">
+
+      <h2>Who's in so far</h2>
+
+      <div id="inList">
+        <p>Nobody has confirmed yet. You could be the first.</p>
+      </div>
+
+    </section>
+
+    <p class="note hidden" id="demoNote">
+      Test mode: answers aren't being saved yet.
+    </p>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
