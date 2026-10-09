@@ -14,7 +14,7 @@ const NAMES = {
   "abu-bakar": "Abu bakar",
   "muaaz-ahmed": "Muaaz Ahmed",
   "abdullah-talish": "Abdullah Talish",
-  "adeel": "Adeel"
+  "adeel": "Adeel",
   "muhammad-abdullah": "Muhammad Abdullah",
   "mateen": "Mateen",
   "faizan": "Faizan",
