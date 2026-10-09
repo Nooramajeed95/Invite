@@ -15,6 +15,11 @@ const NAMES = {
   "muaaz-ahmed": "Muaaz Ahmed",
   "abdullah-talish": "Abdullah Talish",
   "adeel": "Adeel"
+  "muhammad-abdullah": "Muhammad Abdullah",
+  "mateen": "Mateen",
+  "faizan": "Faizan",
+  "pakiza-syed": "Pakiza Syed",
+  "sameer-awan" : "Sameer Awan"
 };
 
 const ROLES = [
